@@ -4,10 +4,11 @@
   "scripts": {
     "wp:start": "wp-env start",
     "wp:stop": "wp-env stop",
-    "wp:clean": "wp-env clean",
-    "vite:dev": "THEME=WordPressTheme vite",
-    "vite:build": "NODE_ENV=production THEME=WordPressTheme vite build",
-    "dev": "npm run wp:start && npm run vite:dev"
+    "wp:clean": "wp-env reset",
+    "wp:setup": "wp-env run cli wp option update timezone_string Asia/Tokyo && wp-env run cli wp option update WPLANG ja",
+    "vite:dev": "THEME=vite_test vite",
+    "vite:build": "NODE_ENV=production THEME=vite_test vite build",
+    "dev": "npm run wp:start && npm run wp:setup && npm run vite:dev"
   },
   "devDependencies": {
     "@wordpress/env": "^11.5.0",
