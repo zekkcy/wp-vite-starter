@@ -1,0 +1,15 @@
+{
+  "core": null,
+  "phpVersion": "8.2",
+  "themes": [
+    "./WordPressTheme"
+  ],
+  "env": {
+    "development": {
+      "port": 8080
+    },
+    "tests": {
+      "port": 8081
+    }
+  }
+}

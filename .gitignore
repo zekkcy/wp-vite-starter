@@ -1,0 +1,25 @@
+# =================================
+# Node / Vite
+# =================================
+node_modules/
+dist/
+.vite/
+.DS_Store
+
+# lockは基本commit推奨（チーム開発なら外さない）
+# package-lock.json
+
+# =================================
+# Build output (Vite)
+# =================================
+WordPressTheme/assets/css/
+WordPressTheme/assets/images/
+WordPressTheme/assets/js/
+
+# sourcemap
+*.map
+
+# =================================
+# Local WP / OS
+# =================================
+*.log
