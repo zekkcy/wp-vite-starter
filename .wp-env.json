@@ -10,6 +10,9 @@
     "https://downloads.wordpress.org/plugin/admin-bar-position.latest-stable.zip",
     "https://downloads.wordpress.org/plugin/show-current-template.latest-stable.zip"
   ],
+  "config": {
+    "WPLANG": "ja"
+  },
   "env": {
     "development": {
       "port": 8080
