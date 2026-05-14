@@ -4,6 +4,12 @@
   "themes": [
     "./WordPressTheme"
   ],
+  "plugins": [
+    "AdvancedCustomFields/acf",
+    "https://downloads.wordpress.org/plugin/custom-post-type-ui.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/admin-bar-position.latest-stable.zip",
+    "https://downloads.wordpress.org/plugin/show-current-template.latest-stable.zip"
+  ],
   "env": {
     "development": {
       "port": 8080
